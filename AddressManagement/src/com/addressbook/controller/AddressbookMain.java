@@ -14,7 +14,7 @@ import com.addressbook.dao.AddressBookUtility;
  */
 public class AddressbookMain {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
+	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException, ClassNotFoundException, InstantiationException, IllegalAccessException {
 		AddressbookController ac = new AddressbookController();
 		AddressBookUtility au = new AddressBookUtility();
 

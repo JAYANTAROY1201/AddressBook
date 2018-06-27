@@ -1,4 +1,4 @@
-package com.addressbook.dao;
+package com.addressbook.dao.serializer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,6 +8,9 @@ import java.sql.Statement;
 import java.sql.PreparedStatement;
 import java.util.Iterator;
 
+import com.addressbook.dao.AddressBookSerializer;
+import com.addressbook.dao.AddressBookUtility;
+import com.addressbook.dao.CustAnnotation;
 import com.addressbook.dto.Person;
 
 /**

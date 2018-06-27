@@ -36,25 +36,25 @@ public class AddressbookController {
 	}
 
 	
-    public void doOpen() {
+    public void doOpen() throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
     	System.out.println("Type and choose:\n1 JSON \n2 mySql DATABASE");
 		int choice = au.readInt();
 		if (choice == 1) {
-			abSerObject = AddressbookParseObject.chooseObject("json");
+			abSerObject = AddressbookParseObject.objectManager("json");
 		} else {
-			abSerObject = AddressbookParseObject.chooseObject("jdbc");
+			abSerObject = AddressbookParseObject.objectManager("jdbc");
 		}
 		abSerObject.read();
     }
 
     
-	public void doSave() {
+	public void doSave() throws ClassNotFoundException, InstantiationException, IllegalAccessException, IOException {
 		System.out.println("Type and choose:\n1 JSON \n2 mySql DATABASE");
 		int choice = au.readInt();
 		if (choice == 1) {
-			abSerObject = AddressbookParseObject.chooseObject("json");
+			abSerObject = AddressbookParseObject.objectManager("json");
 		} else {
-			abSerObject = AddressbookParseObject.chooseObject("jdbc");
+			abSerObject = AddressbookParseObject.objectManager("jdbc");
 		}
 		abSerObject.save();
 	}

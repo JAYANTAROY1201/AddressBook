@@ -1,4 +1,4 @@
-package com.addressbook.dao;
+package com.addressbook.dao.serializer;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,6 +7,10 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+import com.addressbook.dao.AddressBookSerializer;
+import com.addressbook.dao.AddressBookUtility;
+import com.addressbook.dao.CustAnnotation;
 import com.addressbook.dto.Person;
 
 /**

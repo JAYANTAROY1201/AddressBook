@@ -7,6 +7,8 @@ package com.addressbook.dao;
  * @version 1.0
  * @since 22/08/18
  */
+
+
 public interface AddressBookSerializer {
 	public void save();
 
