@@ -1,0 +1,45 @@
+[
+  {
+
+    "NAME": "Hilo High School",
+    "ADDRESS": "556 Waianuenue Avenue",
+    "CITY": "Hilo",
+    "STATE": "HI",
+    "ZIP": 96720
+  },
+  {
+    
+    "NAME": "Holualoa Elementary School",
+    "ADDRESS": "76-5957 Mamalahoa Highway",
+    "CITY": "Holualoa",
+    "STATE": "HI",
+    "ZIP": 96725
+  },
+  {
+    
+    "NAME": "Honaunau Elementary School",
+    "ADDRESS": "83-5360 Mamalahoa Highway",
+    "CITY": "Captain Cook",
+    "STATE": "HI",
+    "ZIP": 96704
+    
+  },
+  {
+    
+    "NAME": "Hookena Elementary School",
+    "ADDRESS": "86-4355 Mamalahoa Highway",
+    "CITY": "Captain Cook",
+    "STATE": "HI",
+    "ZIP": 96704
+    
+  },
+  {
+    
+    "NAME": "Kau High and Pahala Elementary School",
+    "ADDRESS": "96-3150 Pikake Street",
+    "CITY": "Pahala",
+    "STATE": "HI",
+    "ZIP": 96777
+    
+  }
+]
